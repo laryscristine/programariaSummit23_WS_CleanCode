@@ -12,6 +12,8 @@ const mensagem2 = saudacaoRachel();
 console.log(mensagem1); 
 console.log(mensagem2); 
 
+
+// Refatoração
 function saudacaoFriends(nome) {
     return `Olá, ${nome}! Bem-vindo(a) ao Central Perk, o café mais amigável de Nova York!`;
 }
@@ -19,5 +21,7 @@ function saudacaoFriends(nome) {
 const mensagens1 = saudacaoFriends("Ross");
 const mensagens2 = saudacaoFriends("Rachel");
 
-console.log(mensagem1); 
-console.log(mensagem2); 
+console.log(mensagens1); 
+console.log(mensagens2); 
+
+
